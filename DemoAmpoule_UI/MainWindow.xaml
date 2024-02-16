@@ -1,0 +1,15 @@
+﻿<Window x:Class="DemoAmpoule_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoAmpoule_UI"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+    <StackPanel>
+        <CheckBox Name="chkInterrupteur" 
+              Checked="ChkInterrupteur_Checked" 
+              Unchecked="ChkInterrupteur_Unchecked">ON/OFF</CheckBox>
+        <Image Name="imgAmpoule" Source="off.png" MaxHeight="380"/>
+    </StackPanel>
+</Window>
